@@ -3,7 +3,7 @@ Automated fact checker.
 
 ### Example Usage
 
-'''
+```
 root@674db38ea4df:/usr/src# python3 src.py "Nicholas Brody is a character on Homeland."
 ---------------------------------------------------
 Artile:  Nicholas_Brody  ; File:  wiki-070.txt  ; Verdict:  ENTAILMENT   0.9863802194595337
@@ -29,4 +29,4 @@ Artile:  Bermuda_Triangle  ; File:  wiki-015.txt  ; Verdict:  CONTRADICTION   0.
 
 2 The vicinity of the Bermuda Triangle is one of the most heavily traveled shipping lanes in the world , with ships frequently crossing through it for ports in the Americas , Europe , and the Caribbean islands .
 ---------------------------------------------------
-'''
+```
