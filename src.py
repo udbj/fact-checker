@@ -82,7 +82,7 @@ else:
 	# Print results
 	for idx, evidc in enumerate(evidc_ls):
 		print('---------------------------------------------------')
-		print('Artile: ',evidc[0], ' ; File: ', evidc[1], ' ; Verdict: ', evidc[2], ' ', evidc[3])
+		print('Article: ',evidc[0], ' ; File: ', evidc[1], ' ; Verdict: ', evidc[2], ' ', evidc[3])
 		print()
 		print(evidc[4])
 		print('---------------------------------------------------')
