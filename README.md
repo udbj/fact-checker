@@ -3,7 +3,7 @@ Automated fact verification system. Uses lucene (pylucene and lupyne) for text r
 
 ### Initial Setup
 
-1. [Recommended] Download and run pylucene docker image:
+1. [Recommended] Download and run pylucene docker container:
 ```
 docker pull coady/pylucene
 docker run -it --name lucene coady/pylucene bash
