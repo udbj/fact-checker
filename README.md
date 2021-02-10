@@ -17,8 +17,7 @@ pip install spacy
 pip install lupyne
 python -m spacy download en_core_web_sm
 ```
-3. Download the dataset folder:\
-`https://www.dropbox.com/s/pgc7pt3rszj25y5/wiki.zip?dl=0`
+3. Download the dataset folder: `https://www.dropbox.com/s/pgc7pt3rszj25y5/wiki.zip?dl=0`
 
 4. In a new terminal window, copy the scripts and the data folder to the running container:
 ```
