@@ -1,6 +1,32 @@
 # fact-checker
 Automated fact checker.
 
+### Initial Setup
+
+1. [Recommended] Download and run pylucene docker image:
+```
+docker pull coady/pylucene
+docker run -it --name lucene coady/pylucene bash
+```
+
+2. Install required libraries inside the container:
+```
+pip install torch
+pip install transformers
+pip install spacy
+pip install lupyne
+python -m spacy download en_core_web_sm
+```
+
+3. In a new terminal window, copy the scripts and the data folder to the running container:
+```
+docker cp wiki lucene:/usr/src
+docker cp indexer.py lucene:/usr/src
+docker cp src.py lucene:/usr/src
+```
+
+* [Note]: The `roberta-large-mnli` model used in the code requires a large amount of memory to run. The process will be killed by the OS if your system does not have enough free RAM.
+
 ### Usage Examples
 
 ```
