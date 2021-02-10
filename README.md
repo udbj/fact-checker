@@ -1,5 +1,5 @@
 # fact-checker
-Automated fact verification system. Uses lucene (pylucene and lupyne) for text retrieval and a RoBERTa model trained on the MNLI corpus to check for textual entailment.
+Automated fact verification system. Uses lucene (pylucene and lupyne) for text retrieval and a RoBERTa model trained by Facebook on the MNLI corpus to check for textual entailment.
 
 ### Initial Setup
 
