@@ -1,7 +1,6 @@
 import lucene
 from lupyne import engine
 import os
-from org.apache.lucene.analysis.cjk import CJKAnalyzer
 from org.apache.lucene.analysis.en import EnglishAnalyzer
 
 INDEXDIR = 'index'
