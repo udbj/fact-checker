@@ -20,7 +20,7 @@ chklabs.add('ENTAILMENT')
 
 evidc_ls = []
 
-tokenizer = AutoTokenizer.from_pretrained("roberta-large-mnli")
+tokenizer = AutoTokenizer.from_pretrained("roberta-large-mnli", do_lower_case = False)
 model = AutoModelForSequenceClassification.from_pretrained("roberta-large-mnli")
 entailment = pipeline('sentiment-analysis', model=model, tokenizer=tokenizer)
 
