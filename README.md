@@ -5,7 +5,7 @@ Automated fact verification system. Uses lucene (pylucene and lupyne) for text r
 
 1. [Recommended] Download and run pylucene docker container:
 ```
-docker pull coady/pylucene
+docker pull coady/pylucene:8.3
 docker run -it --name lucene coady/pylucene bash
 ```
 
